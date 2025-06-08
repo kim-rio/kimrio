@@ -1,31 +1,34 @@
-body {font-family:Arial, Helvetica, sans-serif;font-size:100%;
-text-align:left;margin:0px;
+body {font-family:Arial, Helvetica, sans-serif;font-size:20px;
+text-align:left;margin:0px;text-align:justify;
 color:black;background-color:rgb(255, 255, 255);}
+
+header {font-size:20px;font-family:georgia;text-align:center;
+padding:20px;
+color:#000000; background-color:rgb(174, 97, 174);}
+
+.footer01{padding: 20px;background-color:rgb(174, 97, 174);text-align:center;
+line-height:1.6em;}
+.footer02{display:flex;gap:20px;justify-content:center;}
 
 section {margin:50px;}
 
-header {font-size:20px;font-family:cursive;text-align:center;
-padding:20px;
-color:rgb(255, 255, 255); background-color:rgb(174, 97, 174);}
+h2 {font-size:60px; font-family:georgia;color:rgb(174, 97, 174);}
 
-h2 {font-size:20px; font-family:cursive; 
-padding: 10px;
-border:3px solid red;border-radius: 10px;
-color:rgb(174, 97, 174);background-color:rgb(234, 222, 130);}
-
-footer{padding: 20px;background-color:rgb(174, 97, 174);display:flex;gap:50%}
-
-.new{font-style:italic;
+.paragraph01{font-style:italic;
 color:rgb(137, 136, 142);background-color:rgb(255, 255, 255);
-padding:20px;width:100%;line-height:2em;
-border:3px solid rgb(174, 97, 174);border-radius:5px;}
+padding:20px;line-height:1.6em;box-shadow:0 4px 6px 0 rgb(0, 0, 0,0.2),0 6px 8px 0 rgb(0, 0, 0, 0.19);
+border-radius:10px;}
 
-.net04{display:flex;flex:space-evenly;gap: 10px;}
+.imagetextflex{display:flex;gap: 10px;}
 
-.net01 {color:rgb(0, 0, 0);
+.button01 {color:white;background-color:rgb(174, 97, 174);border-radius:10px;
+padding: 20px 100px;text-align:center;text-decoration:none;font-size:16px;line-height:5em;
+box-shadow:0 2px 3px rgb(0, 0, 0,0.2),0 4px 6px rgb(0, 0, 0, 0.19);}
+
+.span01 {color:rgb(0, 0, 0);
 font-weight:normal;
 font-style:oblique;}
 
-.net02 {border:2px solid rgb(174, 97, 174);border-radius:10px;width: 60%;padding: 0px;}
+.newposter {border-radius:10px;width: 60%;}
 
 figure {text-align:center;}
