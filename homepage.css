@@ -1,49 +1,31 @@
-body {margin:80px;
-font-family:Arial, Helvetica, sans-serif;
-font-size:20px;
-text-align:justify;
-box-sizing:border-box;
-color:black;
-background-color:rgb(255, 255, 255);}
+body {font-family:Arial, Helvetica, sans-serif;font-size:100%;
+text-align:left;margin:0px;
+color:black;background-color:rgb(255, 255, 255);}
 
-h1 {padding: 20px;
-font-size:50px;  
-display:flex;
-align-items:center;
-justify-content:center;
-font-family:cursive;
-margin:50px;
-width:800px;
-height: 80px;
+section {margin:50px;}
+
+header {font-size:20px;font-family:cursive;text-align:center;
+padding:20px;
+color:rgb(255, 255, 255); background-color:rgb(174, 97, 174);}
+
+h2 {font-size:20px; font-family:cursive; 
 padding: 10px;
-border-radius: 20px;
-background-color:rgb(174, 97, 174);
-color:rgb(255, 255, 255);}
+border:3px solid red;border-radius: 10px;
+color:rgb(174, 97, 174);background-color:rgb(234, 222, 130);}
 
-h2 {font-size:20px;
-text-align:justify;    
-height: 10px;
-margin:50px;
-width:750px;
-height: 35px;
-padding: 10px;
-border-radius: 10px;
-font-family:cursive;
-margin:30px;
-background-color:rgb(234, 222, 130);
-color:rgb(174, 97, 174);}
+footer{padding: 20px;background-color:rgb(174, 97, 174);display:flex;gap:50%}
 
-.social-icon{display:flex;
-gap:30px;
-height: 10px;
-margin:50px;
-width:750px;
-height: 70px;
-padding: 10px;
-border-radius: 50px;
-background-color:rgb(234, 222, 130);}
+.new{font-style:italic;
+color:rgb(137, 136, 142);background-color:rgb(255, 255, 255);
+padding:20px;width:100%;line-height:2em;
+border:3px solid rgb(174, 97, 174);border-radius:5px;}
 
-p {margin:10px;}
- 
-a {margin:10px;
-}
+.net04{display:flex;flex:space-evenly;gap: 10px;}
+
+.net01 {color:rgb(0, 0, 0);
+font-weight:normal;
+font-style:oblique;}
+
+.net02 {border:2px solid rgb(174, 97, 174);border-radius:10px;width: 60%;padding: 0px;}
+
+figure {text-align:center;}
