@@ -4,9 +4,9 @@ color:rgb(255, 255, 255);background-color:rgb(0, 0, 0);}
 
 header {font-size:40px;font-family:georgia;text-align:center;
 padding:20px;background-image:url('images/image\ 05.jpeg');
-color:#000000; background-color:rgb(21, 133, 36);}
+color:#000000;}
 
-.footer01{padding: 20px;background-color:rgb(21, 133, 36);text-align:center;
+.footer01{padding: 20px;text-align:center;
 line-height:1.6em;background-image:url('images/image\ 05.jpeg');}
 .footer02{display:flex;gap:20px;justify-content:center;}
 
