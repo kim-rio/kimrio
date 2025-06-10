@@ -2,11 +2,12 @@ body {font-family:Arial, Helvetica, sans-serif;font-size:20px;
 text-align:left;margin:0px;text-align:justify;
 color:rgb(255, 255, 255);background-color:rgb(0, 0, 0);}
 
-header {font-size:130px;font-family:georgia;text-align:center;position:sticky;top:0;z-index:1000;
-animation-name:non;animation-duration:10s; padding:100px;
+header {font-size:80px;font-family:georgia;text-align:center;
+animation-name:non;animation-duration:10s; padding:30px;
 background-size:cover;background-position:center;
-color:#0ebb08;margin:0px;animation-iteration-count:infinite;animation-timing-function:linear;
-text-shadow:1px 1px 0 #3f943c, 2px 2px 0 #3f943c,3px 3px 0 #3f943c, 4px 4px 0 #3f943c, 5px 5px 0 #3f943c;}
+color:rgb(21, 133, 36);margin:0px;animation-iteration-count:infinite;animation-timing-function:linear;
+text-shadow:1px 1px 0 #499204, 2px 2px 0 #499204,3px 3px 0 #499204, 4px 4px 0 #499204, 5px 5px 0 #499204;}
+
 
 @keyframes non {
 0%{background-image:url('tv-series/severance.webp');}
@@ -14,18 +15,19 @@ text-shadow:1px 1px 0 #3f943c, 2px 2px 0 #3f943c,3px 3px 0 #3f943c, 4px 4px 0 #3
 66%{background-image:url('k-drama/hyper\ knife.jpeg');}
 100%{background-image:url('k-drama/karma.jpg');}}
 
-h1{color:#0ebb08}
-h2{color:#0ebb08}
+h1{color:#0ebb08;position: sticky; box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  top: 0;z-index: 100; }
+h2{color:#0ebb08;}
 
 .section01{margin:0%;}
 .nav01{display:flex;background-color:rgb(21, 133, 36);
-padding:10px;color:#000000;font-size:30px;overflow:auto;gap:10px;}
+padding:5px;color:#000000;font-size:30px;overflow:auto;gap:10px;}
 .nav01::-webkit-scrollbar{display:none;}
 .nav01 a:hover{color:#0ebb08;background-color: rgb(0, 0, 0);gap:30px;border-radius:10px;
 box-shadow:0 4px 6px 0 rgb(0, 0, 0, 0.1), 0 6px 20px 0 rgb(0, 0, 0, 0.15);}
 
-.h1a {text-decoration:none;white-space:nowrap;color:rgb(0, 0, 0);padding:40px 40px;}
-.h1b {margin-left:100px;text-decoration:none;white-space:nowrap;color:rgb(0, 0, 0);padding:40px 40px;}
+.h1a {text-decoration:none;white-space:nowrap;color:rgb(0, 0, 0);padding:20px 30px;}
+.h1b {margin-left:100px;text-decoration:none;white-space:nowrap;color:rgb(0, 0, 0);padding:20px 30px;}
 
 .footer01{text-align:center;color:rgb(0, 0, 0);padding:30px;margin:0px;
 line-height:1.6em;background-color:rgb(21, 133, 36);}
