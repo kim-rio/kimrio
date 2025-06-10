@@ -15,7 +15,14 @@ text-shadow:1px 1px 0 #499204, 2px 2px 0 #499204,3px 3px 0 #499204, 4px 4px 0 #4
 66%{background-image:url('k-drama/hyper\ knife.jpeg');}
 100%{background-image:url('k-drama/karma.jpg');}}
 
-h1{color:#0ebb08;position: sticky; box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+h1{position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 60px; /* Adjust as needed */
+  background: #ffffff;
+  z-index: 1000;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);color:#0ebb08;position: sticky; box-shadow: 0 2px 5px rgba(0,0,0,0.1);
   top: 0;z-index: 100; }
 h2{color:#0ebb08;}
 
