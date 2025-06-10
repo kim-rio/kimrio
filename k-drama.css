@@ -2,7 +2,7 @@ body {font-family:Arial, Helvetica, sans-serif;font-size:20px;
 text-align:left;margin:0px;text-align:justify;
 color:rgb(255, 255, 255);background-color:rgb(0, 0, 0);}
 
-header {font-size:130px;font-family:georgia;text-align:center;position:sticky;top:0;z-index:1000;
+header {font-size:130px;font-family:georgia;text-align:center;
 animation-name:non;animation-duration:10s; padding:100px;
 background-size:cover;background-position:center;
 color:#0ebb08;margin:0px;animation-iteration-count:infinite;animation-timing-function:linear;
@@ -28,7 +28,7 @@ box-shadow:0 4px 6px 0 rgb(0, 0, 0, 0.1), 0 6px 20px 0 rgb(0, 0, 0, 0.15);}
 .h1b {margin-left:100px;text-decoration:none;white-space:nowrap;color:rgb(0, 0, 0);padding:40px 40px;}
 
 .footer01{text-align:center;color:rgb(0, 0, 0);padding:30px;margin:0px;
-line-height:1.6em;background-color:rgb(21, 133, 36);}
+line-height:1.6em;background-color:rgb(21, 133, 36);line-height:1.5em;}
 .footer02{display:flex;gap:20px;justify-content:center;}
 
 section {margin:30px;}
@@ -37,6 +37,5 @@ h2 a {text-decoration:none;color:rgb(15, 255, 7);float:right;}
 
 
 .post01{max-width:300px;height:400px;border-radius:10px;}
-.post{display:flex;gap:20px;overflow:auto;}
-.post::-webkit-scrollbar{display:none;}
+.post{display:grid;grid-template-columns: repeat(4,2fr); gap:10px;}
 figcaption{text-align:center;line-height:1.8em;color:#0ebb08}
