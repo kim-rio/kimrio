@@ -19,11 +19,11 @@ h1{position: fixed;
   top: 0;
   left: 0;
   right: 0;
-  height: 60px; /* Adjust as needed */
-  background: #ffffff;
+  height: 250px; /* Adjust as needed */
+  background: #000000;
   z-index: 1000;
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);color:#0ebb08;position: sticky; box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-  top: 0;z-index: 100; }
+  top: 0; }
 h2{color:#0ebb08;}
 
 .section01{margin:0%;}
