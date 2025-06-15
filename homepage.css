@@ -1,13 +1,14 @@
-body {font-family:Arial, Helvetica, sans-serif;font-size:20px;
+body {font-family:Arial, Helvetica, sans-serif;font-size:16px;
 text-align:left;margin:0px;text-align:justify;
 color:rgb(255, 255, 255);background-color:rgb(0, 0, 0);}
 
-header {font-size:80px;font-family:georgia;text-align:center;
-animation-name:non;animation-duration:10s; padding:30px;
+header {font-size:50px;font-family:georgia;text-align:center;
+animation-name:non;animation-duration:10s; padding:30;
 background-size:cover;background-position:center;
-color:rgb(21, 133, 36);margin:0px;animation-iteration-count:infinite;animation-timing-function:linear;
+color:#0ca025;margin:0px;animation-iteration-count:infinite;
 text-shadow:1px 1px 0 #499204, 2px 2px 0 #499204,3px 3px 0 #499204, 4px 4px 0 #499204, 5px 5px 0 #499204;}
 
+video{width :100%; height:auto;}
 
 @keyframes non {
 0%{background-image:url('tv-series/severance.webp');}
@@ -15,26 +16,20 @@ text-shadow:1px 1px 0 #499204, 2px 2px 0 #499204,3px 3px 0 #499204, 4px 4px 0 #4
 66%{background-image:url('k-drama/hyper\ knife.jpeg');}
 100%{background-image:url('k-drama/karma.jpg');}}
 
-h1{position: fixed;
+h1{margin-top : 0px;
   top: 0;
-  left: 0;
-  right: 0;
-  height: 250px; /* Adjust as needed */
-  background: #000000;
-  z-index: 1000;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);color:#0ebb08;position: sticky; box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-  top: 0; }
-h2{color:#0ebb08;}
+  height: auto;
+  position: sticky;}
+h2{color:#0ca025;}
 
 .section01{margin:0%;}
-.nav01{display:flex;background-color:rgb(21, 133, 36);
-padding:5px;color:#000000;font-size:30px;overflow:auto;gap:10px;}
+.nav01{display:flex;background-color:rgb(0, 0, 0);color:#0ca025;border-radius:10px; border: 3px solid #0ca025; 
+padding:3px;font-size:20px;overflow:auto;gap:10px;justify-content:center;}
 .nav01::-webkit-scrollbar{display:none;}
-.nav01 a:hover{color:#0ebb08;background-color: rgb(0, 0, 0);gap:30px;border-radius:10px;
-box-shadow:0 4px 6px 0 rgb(0, 0, 0, 0.1), 0 6px 20px 0 rgb(0, 0, 0, 0.15);}
+.nav01 a:hover{color:#0ca025;background-color: rgb(3, 26, 13);border-radius:10px;
+box-shadow:0 4px 6px 0 rgba(0, 0, 0, 0.102), 0 6px 20px 0 rgba(0, 0, 0, 0.15);}
 
-.h1a {text-decoration:none;white-space:nowrap;color:rgb(0, 0, 0);padding:20px 30px;}
-.h1b {margin-left:100px;text-decoration:none;white-space:nowrap;color:rgb(0, 0, 0);padding:20px 30px;}
+.h1a {text-decoration:none;white-space:nowrap;color:#0ca025;padding:7px 10px;}
 
 .footer01{text-align:center;color:rgb(0, 0, 0);padding:30px;margin:0px;
 line-height:1.6em;background-color:rgb(21, 133, 36);}
@@ -42,10 +37,10 @@ line-height:1.6em;background-color:rgb(21, 133, 36);}
 
 section {margin:30px;}
 
-h2 a {text-decoration:none;color:rgb(15, 255, 7);float:right;}
+h2 a {text-decoration:none;color:#0ca025;float:right;}
 
 
 .post01{max-width:300px;height:400px;border-radius:10px;}
 .post{display:flex;gap:20px;overflow:auto;}
 .post::-webkit-scrollbar{display:none;}
-figcaption{text-align:center;line-height:1.8em;color:#0ebb08}
+figcaption{text-align:center;line-height:1.8em;color:#0ca025}
