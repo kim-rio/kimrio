@@ -8,7 +8,7 @@ background-size:cover;background-position:center;
 color:#0ca025;margin:0px;animation-iteration-count:infinite;
 text-shadow:1px 1px 0 #499204, 2px 2px 0 #499204,3px 3px 0 #499204, 4px 4px 0 #499204, 5px 5px 0 #499204;}
 
-video{width :100%; height:auto;}
+video{width :50%; height:auto;}
 
 @keyframes non {
 0%{background-image:url('tv-series/severance.webp');}
@@ -31,8 +31,8 @@ box-shadow:0 4px 6px 0 rgba(0, 0, 0, 0.102), 0 6px 20px 0 rgba(0, 0, 0, 0.15);}
 
 .h1a {text-decoration:none;white-space:nowrap;color:#0ca025;padding:7px 10px;}
 
-.footer01{text-align:center;color:rgb(0, 0, 0);padding:30px;margin:0px;
-line-height:1.6em;background-color:rgb(21, 133, 36);}
+.footer01{text-align:center;color:#0ca025;padding:10px;margin:0px;border:3px solid #0ca025;border-radius:10px;
+line-height:1.6em;}
 .footer02{display:flex;gap:20px;justify-content:center;}
 
 section {margin:30px;}
