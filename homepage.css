@@ -1,46 +1,75 @@
-body {font-family:Arial, Helvetica, sans-serif;font-size:16px;
-text-align:left;margin:0px;text-align:justify;
-color:rgb(255, 255, 255);background-color:rgb(0, 0, 0);}
+body {
+  font-family:Arial, Helvetica, sans-serif;font-size:16px;margin: 30px;
+  text-align:left;text-align:justify;
+  color:#44a044;background-color:#000000;
+}
 
-header {font-size:50px;font-family:georgia;text-align:center;
-animation-name:non;animation-duration:10s; padding:30;
-background-size:cover;background-position:center;
-color:#0ca025;margin:0px;animation-iteration-count:infinite;
-text-shadow:1px 1px 0 #499204, 2px 2px 0 #499204,3px 3px 0 #499204, 4px 4px 0 #499204, 5px 5px 0 #499204;}
+header{
+  border-radius: 20px;box-shadow: 0 2px 4px 0 #44a044,0 4px 8px 0 #44a044;text-align: center;padding: 20px;  animation: ishift 21s ease-in-out infinite alternate;background-size: cover; background-position:center;
+}
 
-video{width :50%; height:auto;}
+nav{
+  display: flex; gap: 5px;flex-wrap: wrap;margin: auto;justify-content: center;
+}
 
-@keyframes non {
-0%{background-image:url('tv-series/severance.webp');}
-33%{background-image:url('k-drama/dear\ hongrang.webp');}
-66%{background-image:url('k-drama/hyper\ knife.jpeg');}
-100%{background-image:url('k-drama/karma.jpg');}}
+nav::-webkit-scrollbar{
+  display: none;
+}
 
-h1{margin-top : 0px;
-  top: 0;
-  height: auto;
-  position: sticky;}
-h2{color:#0ca025;}
+nav a {
+  padding: 20px;text-decoration: none;font-weight: bold; color: #44a044; white-space: nowrap; 
+}
 
-.section01{margin:0%;}
-.nav01{display:flex;background-color:rgb(0, 0, 0);color:#0ca025;border-radius:10px; border: 3px solid #0ca025; 
-padding:3px;font-size:20px;overflow:auto;gap:10px;justify-content:center;}
-.nav01::-webkit-scrollbar{display:none;}
-.nav01 a:hover{color:#0ca025;background-color: rgb(3, 26, 13);border-radius:10px;
-box-shadow:0 4px 6px 0 rgba(0, 0, 0, 0.102), 0 6px 20px 0 rgba(0, 0, 0, 0.15);}
+nav a:hover{
+  border-radius: 20px; box-shadow: 0 2px 4px 0 #44a044 ,0 4px 8px 0 #44a044; justify-content: center;
+}
 
-.h1a {text-decoration:none;white-space:nowrap;color:#0ca025;padding:7px 10px;}
+@keyframes ishift {
+  0%{background-image:url('k-drama/dear\ hongrang.webp');}
+  25%{background-image:url('k-drama/hyper\ knife.jpeg');}
+  50%{background-image:url('k-drama/undercover.jpg');}
+  75%{background-image:url('k-drama/weak\ hero.webp');}
+  100%{background-image:url('k-drama/karma.jpg');}
+}
 
-.footer01{text-align:center;color:#0ca025;padding:10px;margin:0px;border:3px solid #0ca025;border-radius:10px;
-line-height:1.6em;}
-.footer02{display:flex;gap:20px;justify-content:center;}
+footer{
+  border-radius: 20px; box-shadow:0 2px 4px 0 #44a044 ,0 4px 8px 0 #44a044; text-align: center;padding: 20px;
+}
 
-section {margin:30px;}
+footer div{display: flex; gap: 10px;justify-content: center;
+}
 
-h2 a {text-decoration:none;color:#0ca025;float:right;}
+.about{
+  text-decoration: none;color: #44a044;
+}
 
 
-.post01{max-width:300px;height:400px;border-radius:10px;}
-.post{display:flex;gap:20px;overflow:auto;}
-.post::-webkit-scrollbar{display:none;}
-figcaption{text-align:center;line-height:1.8em;color:#0ca025}
+
+
+video{
+  width :50%; height:35%;
+}
+
+h2 a{
+   color: #44a044; text-decoration: none;float: right;
+}
+
+.post-grp{
+  display: flex; gap: 30px;overflow: auto;
+}
+
+.post-grp::-webkit-scrollbar{
+  display: none;
+}
+
+.post{
+  width: 200px;height: 300px;border-radius: 20px;
+}
+
+.post-caption{
+  display: block;
+}
+
+figcaption{
+  text-align: center;
+}

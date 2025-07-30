@@ -1,0 +1,28 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../anime"
+		},
+		{
+			"path": "../games"
+		},
+		{
+			"path": "../images"
+		},
+		{
+			"path": "../k-drama"
+		},
+		{
+			"path": "../movies"
+		},
+		{
+			"path": "../tv-series"
+		},
+		{
+			"path": "../video"
+		}
+	]
+}
